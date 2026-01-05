@@ -45,3 +45,32 @@
 .card-container p{
     margin-top: 0;
 }
+.hero{
+    height: 600px;
+    width: 100%;
+    background-color: aqua;
+}
+.hero-items{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 600px;
+
+}
+.item{
+    height: 300px;
+    width: 300px;
+}
+.item img{
+    border: solid;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+.item button{
+    padding: 10px;
+    color: aliceblue;
+    background-color: blueviolet;
+    border: solid;
+    border-color: black;
+    border-radius: 3px;
+}
